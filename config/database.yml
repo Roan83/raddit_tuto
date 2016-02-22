@@ -81,7 +81,7 @@ test:
 production:
   adapter: postgresql
   encoding: utf8
-  database: raddit_production
+  database: radditludo_production
   pool: 5
   username: roan
   password: Iphone4286
