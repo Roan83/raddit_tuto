@@ -79,7 +79,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
+  adapter: postgresql
+  encoding: utf8
   database: raddit_production
-  username: raddit
-  password: <%= ENV['RADDIT_DATABASE_PASSWORD'] %>
+  pool: 5
+  username: roan
+  password: Iphone4286
