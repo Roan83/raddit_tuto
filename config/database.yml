@@ -83,5 +83,3 @@ production:
   encoding: utf8
   database: radditludo_production
   pool: 5
-  username: roan
-  password: Iphone4286
